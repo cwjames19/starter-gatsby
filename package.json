@@ -1,0 +1,52 @@
+{
+  "name": "starter-gatsby",
+  "private": true,
+  "description": "A starter for projects in Gatsby",
+  "version": "0.1.0",
+  "author": "cwjames19",
+  "dependencies": {
+    "eslint": "6.4.0",
+    "eslint-config-airbnb": "18.0.1",
+    "eslint-config-prettier": "6.3.0",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-prettier": "3.1.1",
+    "eslint-plugin-react": "7.14.3",
+    "eslint-plugin-react-hooks": "2.0.1",
+    "gatsby": "^2.13.67",
+    "gatsby-image": "^2.2.7",
+    "gatsby-plugin-layout": "^1.1.2",
+    "gatsby-plugin-manifest": "^2.2.4",
+    "gatsby-plugin-offline": "^2.2.4",
+    "gatsby-plugin-react-helmet": "^3.1.2",
+    "gatsby-plugin-sharp": "^2.2.9",
+    "gatsby-plugin-styled-components": "^3.1.2",
+    "gatsby-source-filesystem": "^2.1.7",
+    "gatsby-transformer-sharp": "^2.2.5",
+    "intersection-observer": "^0.7.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1",
+    "react-intersection-observer": "^8.24.1",
+    "styled-components": "^4.3.2"
+  },
+  "devDependencies": {
+    "gatsby-plugin-root-import": "^2.0.5",
+    "prettier": "^1.18.2",
+    "svg-sprite-generator": "^0.0.7"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby clean && gatsby develop -H 0.0.0.0",
+    "serve": "gatsby serve -H 0.0.0.0",
+    "icons": "svg-sprite-generate -d src/assets/icons -o src/assets/sprites/sprites.svg"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cwjames/starter-gatsby"
+  }
+}
